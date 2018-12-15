@@ -1,2 +1,2 @@
 # FaceRecognition
-Base on face_recognition the most popular Python module
+Base on face_recognition one of the most popular Python module.
