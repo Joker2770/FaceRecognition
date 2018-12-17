@@ -14,13 +14,16 @@ Base on [face_recognition](https://github.com/ageitgey/face_recognition) one of 
 ## Example of installing and running - Ubuntu & similar
 
 ~~~
-#Install requirements.txt
-pip3 install -r requirements.txt
-
 #Clone github repo
 git clone https://github.com/Joker2770/FaceRecognition.git
 
 #Change directory
+cd FaceRecognition
+
+#Install requirements.txt
+pip3 install -r requirements.txt
+
+#Change directory again
 cd src
 
 #Run code
