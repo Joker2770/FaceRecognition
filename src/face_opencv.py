@@ -7,7 +7,7 @@ import cv2
 
 video_capture = cv2.VideoCapture(0)
 
-obama_img = face_recognition.load_image_file("./Resource/obama.jpg")
+obama_img = face_recognition.load_image_file("../Resource/obama.jpg")
 obama_face_encoding = face_recognition.face_encodings(obama_img)[0]
 
 face_locations = []

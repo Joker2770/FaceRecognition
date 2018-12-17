@@ -6,10 +6,10 @@ import face_recognition
 from PIL import Image, ImageDraw
 
 # 将图片加载成numpy格式
-MJ = face_recognition.load_image_file("./Resource/MJ.jpg")
-Picasso = face_recognition.load_image_file("./Resource/Picasso.jpg")
-Mona_Lisa = face_recognition.load_image_file("./Resource/Mona_Lisa.jpg")
-unknown = face_recognition.load_image_file("./Resource/unknown.jpg")
+MJ = face_recognition.load_image_file("../Resource/MJ.jpg")
+Picasso = face_recognition.load_image_file("../Resource/Picasso.jpg")
+Mona_Lisa = face_recognition.load_image_file("../Resource/Mona_Lisa.jpg")
+unknown = face_recognition.load_image_file("../Resource/unknown.jpg")
 
 # 通过face_recognition.face_encodings获取图片中的第一个人脸
 Mona_Lisa_face_encoding = face_recognition.face_encodings(Mona_Lisa)[0]
